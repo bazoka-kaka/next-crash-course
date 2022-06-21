@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next js
 
-## Getting Started
+## What you should know first?
 
-First, run the development server:
+- javascript also the basics of react
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. creating components
+2. using JSX
+3. passing props
+4. using state
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What is Next.js?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- react frontend development web framework created by Vercel (formerly zeit)
+  that enables functionality like server\-side rendering and static
+  site generation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Server side rendering
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- unlike the traditional React app where the entire application is
+  loaded and rendered on client, Next.js allows the first page
+  load to be rendered by the server, which is great for SEO and performance
 
-## Learn More
+## Other Next.js benefits
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- easy page routing
+- API routes
+- out of the box typescript & sass
+- static site generation (next export)
+- easy deployment
